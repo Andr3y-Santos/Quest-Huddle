@@ -1,0 +1,70 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: url(../images/bg-desktop.svg) hsl(257, 40%, 49%);
+}
+
+.logo img {
+    padding: 40px 0 10px 70px;
+    width: 250px;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+}
+
+.informacoes {
+    padding-top: 50px;
+}
+
+.main .imagem img {
+    padding-top: 20px;
+    padding-right: 35px;
+    width: 600px;
+}
+
+.informacoes h1 {
+    color: #fff;
+    font-size: 3rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.informacoes p {
+    color: #fff;
+    font-size: 1.4rem;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+
+.informacoes .botao {
+    font-family: 'Poppins', sans-serif;
+    padding: 10px 50px;
+    border-radius: 20px;
+    border: none;
+    background-color: #fff;
+    color: hsl(257, 40%, 49%);
+    cursor: pointer;
+    transition: 0.5s all ease-in-out;
+}
+
+.informacoes .botao:hover {
+    color: purple;
+    transform: scale(1.1);
+}
+
+.footer .social {
+    font-size: 30px;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer .social a {
+    margin-left: 10px;
+}
